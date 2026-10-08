@@ -1,6 +1,14 @@
-# Crear una función que calcule el área de un triángulo.
+#Crear una función que calcule el área de un triángulo.
 
-def areaTriangulo():
-    return base * altura / 2
+def area_triangulo(base, altura):
+    resultado = (base * altura) / 2
+    return resultado
 
-resultado = areaTriangulo(2, 2)
+
+#Se piden los datos al usuario.
+base = float(input("Introduce la base: "))
+altura = float(input("Introduce la altura: "))
+
+#Con esto llamo a la función y muestro el resultado.
+area = area_triangulo(base, altura)
+print("El área del triángulo es:", area)
