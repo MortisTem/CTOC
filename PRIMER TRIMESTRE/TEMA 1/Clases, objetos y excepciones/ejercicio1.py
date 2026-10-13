@@ -22,8 +22,8 @@ persona1.mostrar_info()
 try:
     personaErronea = Persona("Cristiano Ronaldo", -41)
     personaErronea.mostrar_info()
-except ValueError as e:
-    print("Excepción capturada:", e)
+except ValueError as z:
+    print("Excepción capturada:", z)
 
 trabajador1 = Trabajador("Neymar", 40, 2500.0)
 trabajador1.mostrar_info()
