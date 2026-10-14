@@ -9,4 +9,10 @@ class Sensor:
         self.valor = valor
 
     def mostrar_info(self):
-        print(f"ID: {self.id}, Unidad: {self.unidad}, Valor: {self.valor}")
+        print(self.id, self.valor, self.unidad)
+
+sensor1 = Sensor("S1", "ºC", 16)
+sensor2 = Sensor("S2", "ºC", 42)
+
+sensor1.mostrar_info()
+sensor2.mostrar_info()
