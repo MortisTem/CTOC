@@ -14,4 +14,4 @@ operacion1 = Operaciones()
 
 operacion1.dividir(10, 2)
 
-operacion1.dividir(10, 0)
+operacion1.dividir(10, 0) 
