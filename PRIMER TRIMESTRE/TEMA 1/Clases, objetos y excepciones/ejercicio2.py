@@ -1,4 +1,3 @@
-# Clase Producto
 class Producto:
     def __init__(self, nombre, precio, cantidad):
         if precio < 0 or cantidad < 0:
