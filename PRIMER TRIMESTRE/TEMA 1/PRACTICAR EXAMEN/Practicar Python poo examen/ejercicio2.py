@@ -17,5 +17,12 @@ class CuentaBancaria:
     def retirar(self, cantidad):
         self.__saldo -= cantidad
 
+    def mostrarSaldo(self):
+        print(f"Tu saldo actual es de {self.__saldo}")
+
 cuenta1 = CuentaBancaria("Leo Messi", -2000)
 cuenta1.depositar(1500)
+cuenta1.mostrarSaldo()
+
+cuenta1.retirar(1000)
+cuenta1.mostrarSaldo()
