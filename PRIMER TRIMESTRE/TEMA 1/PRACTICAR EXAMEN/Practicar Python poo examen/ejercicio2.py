@@ -7,6 +7,7 @@ class CuentaBancaria:
     def __init__(self, titular, saldo):
         self.__titular = titular
         self.__saldo = saldo
+        
         if saldo < 0:
             self.__saldo = 0
             print("El saldo es negativo, tu saldo se ha modificado a 0.")

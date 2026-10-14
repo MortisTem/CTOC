@@ -6,7 +6,7 @@ class Persona:
         self.edad = edad     
 
     def mostrar_info(self):
-        print(f"Nombre: {self.nombre} Edad: {self.edad}")
+        print(f"Nombre: {self.nombre} - Edad: {self.edad}")
 
 class Trabajador(Persona):
     def __init__(self, nombre: str, edad: int, salario: float):
@@ -14,7 +14,7 @@ class Trabajador(Persona):
         self.salario = salario
 
     def mostrar_info(self):
-        print(f"Nombre: {self.nombre} Edad: {self.edad} Salario: {self.salario} €")
+        print(f"Nombre: {self.nombre} - Edad: {self.edad} - Salario: {self.salario} €")
 
 persona1 = Persona("Leo Messi", 39)
 persona1.mostrar_info()
