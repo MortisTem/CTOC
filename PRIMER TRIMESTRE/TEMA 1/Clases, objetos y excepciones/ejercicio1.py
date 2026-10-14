@@ -9,7 +9,7 @@ class Persona:
         print(f"Nombre: {self.nombre}, Edad: {self.edad}")
 
 class Trabajador(Persona):
-    def __init__(self, nombre: str, edad: int, salario: float):
+    def __init__(self, nombre, edad, salario):
         super().__init__(nombre, edad)
         self.salario = salario
 
